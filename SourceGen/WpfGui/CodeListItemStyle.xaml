@@ -423,6 +423,13 @@ See also https://github.com/fadden/DisasmUiTest
             <TextBlock.Text>
                 <Binding Path="Operand"/>
             </TextBlock.Text>
+            <TextBlock.ToolTip>
+                <TextBlock>
+                    <TextBlock.Text>
+                        <Binding Path="Operand"/>
+                    </TextBlock.Text>
+                </TextBlock>
+            </TextBlock.ToolTip>
         </TextBlock>
     </DataTemplate>
 </ResourceDictionary>
